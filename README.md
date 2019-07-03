@@ -2,7 +2,7 @@ author: David Shorten <dpshorten@gmail.com>
 
 Instructions:
 
-1.) Install CaImAn as per the instructions on github. We were using the June 11 2019 commit\
+1.) Install CaImAn as per the instructions on github. We were using the June 11 2019 commit<br/>
 (https://github.com/flatironinstitute/CaImAn/commit/c26be44cafc61c3fc5d77434ad0fce5f6efc9cac)\
 
 3.) Find where CaImAn is installed on your system. In the file caiman/source_extraction/cnmf/estimates.py\
