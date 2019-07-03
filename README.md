@@ -6,7 +6,7 @@ Instructions:
 (https://github.com/flatironinstitute/CaImAn/commit/c26be44cafc61c3fc5d77434ad0fce5f6efc9cac)
 
 3.) Find where CaImAn is installed on your system. In the file caiman/source_extraction/cnmf/estimates.py
-Insert the following line on line lin 512 (after the line "mov = caiman.concatenate(...")
+Insert the following line on line 512 (after the line "mov = caiman.concatenate(...")
 
 mov.save("foo" + str(frame_range[0]) + ".tif")
 
@@ -17,13 +17,13 @@ This file is an edited version of the original demo_caiman_basic.py
 
 The changes that have been made are as follows:
 
-1.) A few parameters
+1.) A few parameters\n
 2.) file names
 3.) Turning off the use of the CNN classifier
 4.) Calling the function detrend_df_f() to normalise the fluorescence values
 5.) Duming the resulting df_f values into a pickle file
 6.) Calling nb_view_components which (if I remember correctly) is what lets you view
-    the results in a browser.
+the results in a browser.
 7.) Changed the play_movie call such that it was called multiple times on fewer frames
     to prevent crashes due to lack of memory.
 
