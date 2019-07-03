@@ -21,7 +21,7 @@ The changes that have been made are as follows:<br/>
 2.) file names<br/>
 3.) Turning off the use of the CNN classifier<br/>
 4.) Calling the function detrend_df_f() to normalise the fluorescence values<br/>
-5.) Duming the resulting df_f values into a pickle file<br/>
+5.) Dumping the resulting df_f values into a pickle file<br/>
 6.) Calling nb_view_components which (if I remember correctly) is what lets you view<br/>
 the results in a browser.<br/>
 7.) Changed the play_movie call such that it was called multiple times on fewer frames<br/>
