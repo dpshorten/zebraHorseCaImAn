@@ -17,7 +17,7 @@ This file is an edited version of the original demo_caiman_basic.py
 
 The changes that have been made are as follows:
 
-1.) A few parameters\n
+1.) A few parameters\
 2.) file names
 3.) Turning off the use of the CNN classifier
 4.) Calling the function detrend_df_f() to normalise the fluorescence values
